@@ -14,8 +14,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "chartist": "^0.11.0",
+    "core-js": "^2.6.2",
+    "google-maps": "^3.2.1",
+    "jquery": "^1.9.1",
+    "node-sass": "^4.13.1",
+    "register-service-worker": "^1.5.2",
+    "v-tooltip": "^2.0.0-rc.33",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue2-google-maps": "^0.8.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -69,11 +79,19 @@
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.6.6",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "element-ui": "^2.13.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0"
   },
   "engines": {
     "node": ">= 6.0.0",
